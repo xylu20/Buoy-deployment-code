@@ -44,11 +44,11 @@ class Config:
     # Audio
     SAMPLE_RATE  = 22050
     DURATION     = 8.0
-    N_MELS       = 128
+    N_MELS       = 64
     N_FFT        = 1024
-    HOP_LENGTH   = 256
+    HOP_LENGTH   = 512
     F_MIN        = 0
-    F_MAX        = 8000
+    F_MAX        = 1000
 
     # Model
     LATENT_DIM   = 64    # bottleneck size — smaller = stricter reconstruction

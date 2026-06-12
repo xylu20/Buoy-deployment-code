@@ -1,0 +1,20 @@
+2026-06-12 13:55:04  INFO  Threshold          : 0.001790
+2026-06-12 13:55:04  INFO  Model loaded       : 1,799,840 parameters
+2026-06-12 13:55:04  INFO  Device             : MPS
+2026-06-12 13:55:06  INFO  🐋  WHALE       error=0.00130  threshold=0.00179  conf=0.73  (2141.7ms)  920708.mp3
+2026-06-12 13:55:06  INFO  Spectrogram saved → result_920708.png
+2026-06-12 13:56:11  INFO  Threshold          : 0.001790
+2026-06-12 13:56:11  INFO  Model loaded       : 1,799,840 parameters
+2026-06-12 13:56:11  INFO  Device             : MPS
+2026-06-12 13:56:12  INFO  ·  no_whale    error=0.14806  threshold=0.00179  conf=0.00  (697.9ms)  920708.mp3
+2026-06-12 13:56:12  INFO  Spectrogram saved → result_920708.png
+2026-06-12 13:56:45  INFO  Threshold          : 0.001790
+2026-06-12 13:56:45  INFO  Model loaded       : 1,799,840 parameters
+2026-06-12 13:56:45  INFO  Device             : MPS
+2026-06-12 13:56:46  INFO  ·  no_whale    error=0.05773  threshold=0.00179  conf=0.00  (676.3ms)  920708.mp3
+2026-06-12 13:56:46  INFO  Spectrogram saved → result_920708.png
+2026-06-12 14:03:32  INFO  Threshold          : 0.001790
+2026-06-12 14:03:32  INFO  Model loaded       : 1,799,840 parameters
+2026-06-12 14:03:32  INFO  Device             : MPS
+2026-06-12 14:03:33  INFO  ·  no_whale    error=0.05569  threshold=0.00179  conf=0.00  (795.7ms)  920708.mp3
+2026-06-12 14:03:33  INFO  Spectrogram saved → result_920708.png

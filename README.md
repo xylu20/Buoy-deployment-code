@@ -32,17 +32,17 @@ pip install librosa numpy
 
 **Classify a single MP3 file:**
 ```bash
-python3 src/pi_whale_detector.py --file recording.mp3
+python3 pi_whale_detector.py --file recording.mp3
 ```
 
 **Classify all MP3s in a folder:**
 ```bash
-python3 src/pi_whale_detector.py --batch /home/pi/recordings
+python3 pi_whale_detector.py --batch /home/pi/recordings
 ```
 
 **Watch a folder continuously — classifies new clips as they arrive:**
 ```bash
-python3 src/pi_whale_detector.py --watch /home/pi/recordings
+python3 pi_whale_detector.py --watch /home/pi/recordings
 ```
 
 ### Step 4 — Read the output
@@ -77,13 +77,13 @@ pip install torch librosa numpy matplotlib
 Run inference:
 ```bash
 # Single file — saves a spectrogram PNG alongside the result
-python3 src/laptop_whale_detector.py --file recording.mp3
+python3 laptop_whale_detector.py --file recording.mp3
 
 # Whole folder — saves detection_report.png
-python3 src/laptop_whale_detector.py --batch /path/to/recordings
+python3 laptop_whale_detector.py --batch /path/to/recordings
 
 # Watch folder — saves report when you press Ctrl+C
-python3 src/laptop_whale_detector.py --watch /path/to/recordings
+python3 laptop_whale_detector.py --watch /path/to/recordings
 ```
 
 ---

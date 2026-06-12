@@ -39,13 +39,13 @@ warnings.filterwarnings("ignore")
 
 class Config:
     # Audio
-    SAMPLE_RATE = 22050
-    DURATION    = 8.0
-    N_MELS      = 128
-    N_FFT       = 2048
-    HOP_LENGTH  = 256
-    F_MIN       = 0
-    F_MAX       = 1000
+    SAMPLE_RATE  = 22050
+    DURATION     = 8.0
+    N_MELS       = 64
+    N_FFT        = 1024
+    HOP_LENGTH   = 512
+    F_MIN        = 0
+    F_MAX        = 1000
 
     # Event detection
     EVENT_ENERGY_PERCENTILE   = 95
