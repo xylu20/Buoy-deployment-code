@@ -15,8 +15,8 @@ To adapt for other species, change `F_MAX` in `Config` to cover the relevant fre
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/whale-detector.git
-cd whale-detector
+git clone https://github.com/xylu20/Buoy-deployment-code.git
+cd Buoy-deployment-code
 ```
 
 ### Step 2 — Install dependencies
@@ -47,11 +47,13 @@ python3 src/pi_whale_detector.py --watch /home/pi/recordings
 
 ### Step 4 — Read the output
 
-Every prediction is printed to the terminal and saved to `whale_detections.log`:
+Every prediction is printed to the terminal and saved to `whale_detections.log`.
+
+For example:
 
 ```
-2025-06-12 14:03:21  INFO  🐋  WHALE      error=0.00312  threshold=0.00412  conf=0.76  (843ms)  clip_001.mp3
-2025-06-12 14:03:23  INFO  ·   no_whale   error=0.01823  threshold=0.00412  conf=0.00  (821ms)  clip_002.mp3
+2025-06-12 14:03:21  INFO   whale      error=0.00312  threshold=0.00412  conf=0.76  (843ms)  recording_001.mp3
+2025-06-12 14:03:23  INFO   no_whale   error=0.01823  threshold=0.00412  conf=0.00  (821ms)  recording_002.mp3
 ```
 
 | Field | Meaning |
