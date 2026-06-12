@@ -18,3 +18,8 @@
 2026-06-12 14:03:32  INFO  Device             : MPS
 2026-06-12 14:03:33  INFO  ·  no_whale    error=0.05569  threshold=0.00179  conf=0.00  (795.7ms)  920708.mp3
 2026-06-12 14:03:33  INFO  Spectrogram saved → result_920708.png
+2026-06-12 16:38:37  INFO  Threshold          : 0.004955
+2026-06-12 16:38:37  INFO  Model loaded       : 1,799,840 parameters
+2026-06-12 16:38:37  INFO  Device             : MPS
+2026-06-12 16:38:38  INFO  🐋  WHALE       error=0.00437  threshold=0.00496  conf=0.88  (1410.5ms)  920708.mp3
+2026-06-12 16:38:38  INFO  Spectrogram saved → result_920708.png
