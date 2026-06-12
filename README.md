@@ -2,6 +2,14 @@
 
 ---
 
+## Species
+
+This detector is tuned for **North Atlantic right whale** (*Eubalaena glacialis*) upcalls, which occur in the frequency range 50–500 Hz with a typical duration of 0.5–1 second. The spectrogram frequency range is set to 0–1000 Hz to capture this range with sufficient resolution.
+
+To adapt for other species, change `F_MAX` in `Config` to cover the relevant frequency range and retrain.
+
+---
+
 ## Quick Start — Raspberry Pi 5
 
 ### Step 1 — Clone the repository
@@ -77,9 +85,3 @@ python3 src/laptop_whale_detector.py --watch /path/to/recordings
 ```
 
 ---
-
-## Species
-
-This detector is tuned for **North Atlantic right whale** (*Eubalaena glacialis*) upcalls, which occur in the frequency range 50–500 Hz with a typical duration of 0.5–1 second. The spectrogram frequency range is set to 0–1000 Hz to capture this range with sufficient resolution.
-
-To adapt for other species, change `F_MAX` in `Config` to cover the relevant frequency range and retrain.
